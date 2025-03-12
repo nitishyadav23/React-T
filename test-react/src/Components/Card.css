@@ -1,0 +1,21 @@
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+   
+    padding: 10px;
+}
+.body{
+    padding: 10px;
+    border: 2px solid blue;
+
+}
+.user-name{
+    color: red;
+}
+.user-email{
+    color: red;
+}
+.user-age{
+    color: red;
+}
