@@ -1,11 +1,18 @@
 import React from 'react'
-
+import './card.css'
 const Nav = () => {
   return (
-    <div>
+    <div className='nav'>
         <ul>
-            <li><link to='/admin'>Home</link></li>
-            <li><link to='/'> dashboard</link></li>
+           
+            <li>
+            <a href="/admin">Home</a>
+
+            </li>
+            <li>
+         
+            <a href="/">dashboard</a>
+            </li>
         </ul>
     </div>
   )

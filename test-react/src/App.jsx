@@ -1,13 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
-import Card from './Components/card'
+
 import Admin from './Components/Admin'
-import Nav from './Components/Nav'
-import { CreateBrowserRouter } from "react-router-dom";
+
+import{ createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Dashboard from './Components/Dashboard'
-const router = CreateBrowserRouter(
+const router = createBrowserRouter(
   [
     {
       path:"/admin",

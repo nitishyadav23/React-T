@@ -19,3 +19,20 @@
 .user-age{
     color: red;
 }
+.nav{
+    background: black;
+    color: white;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.body1{
+    background: blue;
+    height: 100vh;
+    text-align: center;
+}
+.body1 h1{
+    font-size: 42px;
+} 

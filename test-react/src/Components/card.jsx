@@ -6,17 +6,17 @@ import './card.css'
 const card = () => {
   return (
     <div className="card">
-      {CardData.map((body, info) => {
+      {Data.map((index,info) => {
         return (
           <div className="body" key={info}>
             <div  className="user-name">
-              <h1>{body.name}</h1>
+              <h1>{index.name}</h1>
             </div>
             <div className=" user-email">
-                <h2>{body.email}</h2>
+                <h2>{index.email}</h2>
             </div>
             <div className="user-age">
-                <h3>{body.age}</h3>
+                <h3>{index.age}</h3>
             </div>
             
         
